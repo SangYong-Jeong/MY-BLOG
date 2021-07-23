@@ -1,0 +1,13 @@
+h2.title {font-size: 24px; font-weight: 600; margin-bottom: 16px;}
+p.content {line-height: 1.5; margin-bottom: 28px;}
+.content-wp {background-color: #fff; padding: 16px;}
+.left-wrapper .title-wrap {margin-bottom: 48px; box-shadow: 0 0 20px rgba(0, 0, 0, .6);}
+.left-wrapper .title-wrap .content-wp h3.date {margin-bottom: 28px; font-size: 18px; font-weight: 400;}
+.left-wrapper .title-wrap .content-wp h3.date > span {color: #888;}
+.left-wrapper .title-wrap .content-wp .bt {float: left; border: 1px solid #aaa; background-color: #fff;
+	padding: 16px 20px; font-weight: 600; font-size: 16px; cursor: pointer;}
+.left-wrapper .title-wrap .content-wp .bt > span {font-size: 9px;}
+.left-wrapper .title-wrap .content-wp .bt:hover {background-color: #ccc;}
+.left-wrapper .title-wrap .content-wp .comment {float: right; font-size: 18px; padding: 18px;}
+.left-wrapper .title-wrap .content-wp .comment > span {display: inline-block; background-color: #000;
+	color: #fff; padding: 4px 8px; margin-left: 4px;} 

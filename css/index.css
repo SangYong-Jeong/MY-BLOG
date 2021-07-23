@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+html ,body {background-color: #ddd; font-size: 15px; font-family: 'Raleway', sans-serif; height: 3000px;
+padding: 8px;}
+
+
+/******** header-wrapper **********/
+.header-wrapper {text-align: center; padding: 40px}
+.header-wrapper h1.title {font-weight: 500; font-size: 38px; margin-bottom: 24px;}
+.header-wrapper h4.title {margin-bottom: 12px;}
+.header-wrapper h4.title > span {background-color: #000; color: #fff; display: inline-block; padding: 4px 8px;}
+
+/******** main-wrapper **********/
+.main-wrapper {max-width: 1360px; margin: auto;}
+.main-wrapper .left-wrapper {float: left; width: 66%;}
+.main-wrapper .right-wrapper {float: right; width: 31.5%;}
+
+/******** main-wrapper > left-wrapper **********/
+.left-wrapper .title-wrap .content-wp {background-color: #fff;}
+.left-wrapper .title-wrap .content-wp {background-color: #fff;}
+
+
+/******** main-wrapper > right-wrapper **********/
+.right-wrapper .name-wrap {box-shadow: 0 0 20px rgba(0, 0, 0, .6); margin-bottom: 40px;}
+.right-wrapper h2.title {font-size: 20px;}
+.right-wrapper p.content {margin-bottom: 0;}
+.right-wrapper .post-wrap h2.title {background-color: #eee; padding: 20px 12px; margin-bottom: 0; font-size: 24px; font-weight: 300;}
+.right-wrapper .post-wrap .post {background-color: #fff; padding: 16px;}
+.right-wrapper .post-wrap .post:nth-child(2) {border-bottom: 1px solid #bbb;}
+.right-wrapper .post-wrap .post:nth-child(3) {border-bottom: 1px solid #bbb;}
+.right-wrapper .post-wrap .post:nth-child(4) {border-bottom: 1px solid #bbb;}
+.right-wrapper .post-wrap .post .imgs {float: left; max-width: 50px; max-height: 50px;}
+
+
+/******** footer-wrapper **********/
+
