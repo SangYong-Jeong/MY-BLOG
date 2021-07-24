@@ -11,3 +11,4 @@ p.content {line-height: 1.5; margin-bottom: 28px;}
 .left-wrapper .title-wrap .content-wp .comment {float: right; font-size: 18px; padding: 18px;}
 .left-wrapper .title-wrap .content-wp .comment > span {display: inline-block; background-color: #000;
 	color: #fff; padding: 4px 8px; margin-left: 4px;} 
+.left-wrapper .title-wrap .content-wp .comment span.two {border-radius: 50%;} 

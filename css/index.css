@@ -1,37 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
 /* font-family: 'Raleway', sans-serif; */
 
-html ,body {background-color: #ddd; font-size: 15px; font-family: 'Raleway', sans-serif; height: 3000px;
-padding: 8px;}
-
+html ,body {background-color: #eee; font-size: 15px; font-family: 'Raleway', sans-serif;}
 
 /******** header-wrapper **********/
-.header-wrapper {text-align: center; padding: 40px}
+.header-wrapper {text-align: center; padding-top: 48px; padding-bottom: 32px; margin-bottom: 14px;}	
 .header-wrapper h1.title {font-weight: 500; font-size: 38px; margin-bottom: 24px;}
 .header-wrapper h4.title {margin-bottom: 12px;}
 .header-wrapper h4.title > span {background-color: #000; color: #fff; display: inline-block; padding: 4px 8px;}
 
 /******** main-wrapper **********/
 .main-wrapper {max-width: 1360px; margin: auto;}
-.main-wrapper .left-wrapper {float: left; width: 66%;}
-.main-wrapper .right-wrapper {float: right; width: 31.5%;}
+.main-wrapper .left-wrapper {float: left; width: 66%; padding-left: 15px;}
+.main-wrapper .right-wrapper {float: right; width: 31.5%; padding-right: 15px;}
 
 /******** main-wrapper > left-wrapper **********/
 .left-wrapper .title-wrap .content-wp {background-color: #fff;}
 .left-wrapper .title-wrap .content-wp {background-color: #fff;}
 
-
 /******** main-wrapper > right-wrapper **********/
 .right-wrapper .name-wrap {box-shadow: 0 0 20px rgba(0, 0, 0, .6); margin-bottom: 40px;}
 .right-wrapper h2.title {font-size: 20px;}
 .right-wrapper p.content {margin-bottom: 0;}
-.right-wrapper .post-wrap h2.title {background-color: #eee; padding: 20px 12px; margin-bottom: 0; font-size: 24px; font-weight: 300;}
+
+.right-wrapper .post-wrap {box-shadow: 0 0 20px rgba(0, 0, 0, .6); margin-bottom: 40px;}
+.right-wrapper .post-wrap h2.title {background-color: #eee; padding: 24px 16px; margin-bottom: 0; font-size: 20px; font-weight: 400;}
 .right-wrapper .post-wrap .post {background-color: #fff; padding: 16px;}
+.right-wrapper .post-wrap .post:hover {background-color: #ccc;}
 .right-wrapper .post-wrap .post:nth-child(2) {border-bottom: 1px solid #bbb;}
 .right-wrapper .post-wrap .post:nth-child(3) {border-bottom: 1px solid #bbb;}
 .right-wrapper .post-wrap .post:nth-child(4) {border-bottom: 1px solid #bbb;}
-.right-wrapper .post-wrap .post .imgs {float: left; max-width: 50px; max-height: 50px;}
+.right-wrapper .post-wrap .post .imgs {float: left; max-width: 50px; max-height: 50px; margin-right: 16px;}
+.right-wrapper .post-name h3.name-title {font-size: 18px; margin: 4px 0 8px 0;}
+.right-wrapper .post-name p.name-content {font-size: 15px;}
 
+.right-wrapper .tag-wrap {box-shadow: 0 0 20px rgba(0, 0, 0, .6); margin-bottom: 52px;}
+.right-wrapper .tag-wrap h2.title {background-color: #eee; padding: 24px 16px; margin-bottom: 0; font-size: 20px; font-weight: 400;}
+.right-wrapper .tag-wrap .tags {background-color: #fff; padding: 14px;}
+.right-wrapper .tag-wrap .tags .tag {display: inline-block; background-color: #eee; color: #555; font-size: 12.5px;
+padding: 2px 5px; margin-bottom: 20px; margin-right: 2px;}
+.right-wrapper .tag-wrap .tags .tag-black {background-color: #000; color: #fff; font-size: 15px; padding: 4px 8px;}
 
 /******** footer-wrapper **********/
-
+.footer-wrapper {background-color: #666; padding: 32px 16px;}
+.footer-wrapper .bt-wrap { margin-bottom: 40px;}
+.footer-wrapper .bt {border: none; background-color: #000; color: #fff; padding: 14px 24px; font-size: 15px; cursor: pointer;}
+.footer-wrapper .bt-pre {opacity: .3; cursor: not-allowed;}
+.footer-wrapper .bt-pre:hover {background-color: #ccc; color: #000;}
+.footer-wrapper .bt-next:hover {background-color: #ccc; color: #000;}
+.footer-wrapper .bt-next >span {font-size: 8px;}
+.footer-wrapper .copyright-wrap {margin-bottom: 20px;}
+.footer-wrapper .copyright {color: #fff;}
+.footer-wrapper .copyright a {text-decoration: underline;}
